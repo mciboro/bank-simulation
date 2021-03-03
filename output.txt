@@ -1,0 +1,365 @@
+Client 1: Michał Ciborowski
+Balance: 518
+Client 2: Agata Nowak
+Balance: 987
+Client 3: Jan Kowalski
+Balance: 147
+Client 4: Andrzej Kuc
+Balance: 553
+Client 5: Piotr Wisniowski
+Balance: 1564.41
+Client 106: Joachim Dabrowski
+Balance: 748
+Client 107: Natan Stepien
+Balance: 658
+Client 108: Marzanna Zielinska
+Balance: 1312
+Client 109: Magdalena Borkowska
+Balance: 813
+Client 110: Lila Szymczak
+Balance: 123.98
+
+Employee 1: Mirosława Wojciechowska
+Seniority level: Senior
+Employee 2: Wanda Rutkowska
+Seniority level: Junior
+Employee 3: Robert Duda
+Seniority level: Junior
+Employee 4: Boleslaw Wasilewski
+Seniority level: Senior
+Employee 5: Martin Andrzejewski
+Seniority level: Junior
+Employee 6: Jakub Sikora
+Seniority level: Senior
+
+Transfer no. 1 was made
+Sender no. 108: Marzanna Zielinska
+Recipient no. 106: Joachim Dabrowski
+Banker no. 5: Martin Andrzejewski
+Amount: 54
+Desk no. 8
+
+Deposit no. 202 was made
+Client no. 106: Joachim Dabrowski
+Amount: 319
+Client's balance: 1121
+Banker no. 1: Mirosława Wojciechowska
+Desk no. 7
+
+Handout no. 103 was made
+Client no. 109: Magdalena Borkowska
+Amount: 141
+Client's balance: 672
+Banker no. 6: Jakub Sikora
+Desk no. 8
+
+Transfer no. 4 was made
+Sender no. 106: Joachim Dabrowski
+Recipient no. 110: Lila Szymczak
+Banker no. 5: Martin Andrzejewski
+Amount: 235
+Desk no. 12
+
+Deposit no. 205 was made
+Client no. 109: Magdalena Borkowska
+Amount: 79
+Client's balance: 751
+Banker no. 4: Boleslaw Wasilewski
+Desk no. 16
+
+Deposit no. 206 was made
+Client no. 2: Agata Nowak
+Amount: 291
+Client's balance: 1278
+Banker no. 3: Robert Duda
+Desk no. 16
+
+Deposit no. 207 was made
+Client no. 5: Piotr Wisniowski
+Amount: 166
+Client's balance: 1730.41
+Banker no. 1: Mirosława Wojciechowska
+Desk no. 8
+
+Operation cannot be done, because sender doesn't have enough funds
+
+Operation was made at wrong machine
+
+Handout no. 110 was made
+Client no. 109: Magdalena Borkowska
+Amount: 366
+Client's balance: 385
+Banker no. 1: Mirosława Wojciechowska
+Desk no. 19
+
+Client 1: Michał Ciborowski
+Balance: 518
+Client 2: Agata Nowak
+Balance: 1278
+Client 3: Jan Kowalski
+Balance: 147
+Client 4: Andrzej Kuc
+Balance: 553
+Client 5: Piotr Wisniowski
+Balance: 1730.41
+Client 106: Joachim Dabrowski
+Balance: 886
+Client 107: Natan Stepien
+Balance: 658
+Client 108: Marzanna Zielinska
+Balance: 1258
+Client 109: Magdalena Borkowska
+Balance: 385
+Client 110: Lila Szymczak
+Balance: 358.98
+
+Client 1: Michał Ciborowski
+Balance: 518
+Client 2: Agata Nowak
+Balance: 987
+Client 3: Jan Kowalski
+Balance: 147
+Client 4: Andrzej Kuc
+Balance: 553
+Client 5: Piotr Wisniowski
+Balance: 1564.41
+Client 106: Joachim Dabrowski
+Balance: 748
+Client 107: Natan Stepien
+Balance: 658
+Client 108: Marzanna Zielinska
+Balance: 1312
+Client 109: Magdalena Borkowska
+Balance: 813
+Client 110: Lila Szymczak
+Balance: 123.98
+
+Employee 1: Mirosława Wojciechowska
+Seniority level: Senior
+Employee 2: Wanda Rutkowska
+Seniority level: Junior
+Employee 3: Robert Duda
+Seniority level: Junior
+Employee 4: Boleslaw Wasilewski
+Seniority level: Senior
+Employee 5: Martin Andrzejewski
+Seniority level: Junior
+Employee 6: Jakub Sikora
+Seniority level: Senior
+
+Operation cannot be done, because sender doesn't have enough funds
+
+Operation cannot be done, because sender doesn't have enough funds
+
+Handout no. 103 was made
+Client no. 5: Piotr Wisniowski
+Amount: 129
+Client's balance: 1435.41
+Handout was made at ATM
+
+Deposit no. 204 was made
+Client no. 5: Piotr Wisniowski
+Amount: 53
+Client's balance: 1488.41
+Banker no. 4: Boleslaw Wasilewski
+Desk no. 2
+
+Handout no. 105 was made
+Client no. 106: Joachim Dabrowski
+Amount: 181
+Client's balance: 567
+Banker no. 6: Jakub Sikora
+Desk no. 3
+
+Operation was made at wrong machine
+
+Handout no. 107 was made
+Client no. 109: Magdalena Borkowska
+Amount: 285
+Client's balance: 528
+Banker no. 1: Mirosława Wojciechowska
+Desk no. 1
+
+Handout no. 108 was made
+Client no. 109: Magdalena Borkowska
+Amount: 173
+Client's balance: 355
+Banker no. 4: Boleslaw Wasilewski
+Desk no. 2
+
+Deposit no. 209 was made
+Client no. 2: Agata Nowak
+Amount: 243
+Client's balance: 1230
+Banker no. 3: Robert Duda
+Desk no. 1
+
+Handout no. 110 was made
+Client no. 2: Agata Nowak
+Amount: 395
+Client's balance: 835
+Banker no. 2: Wanda Rutkowska
+Desk no. 2
+
+Handout no. 111 was made
+Client no. 109: Magdalena Borkowska
+Amount: 282
+Client's balance: 73
+Banker no. 4: Boleslaw Wasilewski
+Desk no. 1
+
+Deposit no. 212 was made
+Client no. 1: Michał Ciborowski
+Amount: 97
+Client's balance: 615
+Banker no. 2: Wanda Rutkowska
+Desk no. 2
+
+Client 1: Michał Ciborowski
+Balance: 615
+Client 2: Agata Nowak
+Balance: 835
+Client 3: Jan Kowalski
+Balance: 147
+Client 4: Andrzej Kuc
+Balance: 553
+Client 5: Piotr Wisniowski
+Balance: 1488.41
+Client 106: Joachim Dabrowski
+Balance: 567
+Client 107: Natan Stepien
+Balance: 658
+Client 108: Marzanna Zielinska
+Balance: 1312
+Client 109: Magdalena Borkowska
+Balance: 73
+Client 110: Lila Szymczak
+Balance: 123.98
+
+Client 1: Michał Ciborowski
+Balance: 518
+Client 2: Agata Nowak
+Balance: 987
+Client 3: Jan Kowalski
+Balance: 147
+Client 4: Andrzej Kuc
+Balance: 553
+Client 5: Piotr Wisniowski
+Balance: 1564.41
+Client 106: Joachim Dabrowski
+Balance: 748
+Client 107: Natan Stepien
+Balance: 658
+Client 108: Marzanna Zielinska
+Balance: 1312
+Client 109: Magdalena Borkowska
+Balance: 813
+Client 110: Lila Szymczak
+Balance: 123.98
+
+Employee 1: Mirosława Wojciechowska
+Seniority level: Senior
+Employee 2: Wanda Rutkowska
+Seniority level: Junior
+Employee 3: Robert Duda
+Seniority level: Junior
+Employee 4: Boleslaw Wasilewski
+Seniority level: Senior
+Employee 5: Martin Andrzejewski
+Seniority level: Junior
+Employee 6: Jakub Sikora
+Seniority level: Senior
+
+Handout no. 101 was made
+Client no. 109: Magdalena Borkowska
+Amount: 54
+Client's balance: 759
+Banker no. 3: Robert Duda
+Desk no. 2
+
+Handout no. 102 was made
+Client no. 1: Michał Ciborowski
+Amount: 103
+Client's balance: 415
+Banker no. 2: Wanda Rutkowska
+Desk no. 2
+
+Deposit no. 203 was made
+Client no. 5: Piotr Wisniowski
+Amount: 279
+Client's balance: 1843.41
+Deposit made at CDM
+
+Handout no. 104 was made
+Client no. 1: Michał Ciborowski
+Amount: 161
+Client's balance: 254
+Banker no. 1: Mirosława Wojciechowska
+Desk no. 2
+
+Deposit no. 205 was made
+Client no. 2: Agata Nowak
+Amount: 201
+Client's balance: 1188
+Banker no. 4: Boleslaw Wasilewski
+Desk no. 3
+
+Deposit no. 206 was made
+Client no. 4: Andrzej Kuc
+Amount: 6
+Client's balance: 559
+Deposit made at CDM
+
+Deposit no. 207 was made
+Client no. 106: Joachim Dabrowski
+Amount: 83
+Client's balance: 831
+Banker no. 5: Martin Andrzejewski
+Desk no. 1
+
+Operation was made at wrong machine
+
+Transfer no. 9 was made
+Sender no. 2: Agata Nowak
+Recipient no. 3: Jan Kowalski
+Banker no. 6: Jakub Sikora
+Amount: 117
+Desk no. 1
+
+You can't do transfer to yourself
+
+Transfer no. 11 was made
+Sender no. 109: Magdalena Borkowska
+Recipient no. 108: Marzanna Zielinska
+Banker no. 4: Boleslaw Wasilewski
+Amount: 287
+Desk no. 2
+
+Handout no. 112 was made
+Client no. 1: Michał Ciborowski
+Amount: 199
+Client's balance: 55
+Banker no. 1: Mirosława Wojciechowska
+Desk no. 3
+
+Client 1: Michał Ciborowski
+Balance: 55
+Client 2: Agata Nowak
+Balance: 1071
+Client 3: Jan Kowalski
+Balance: 264
+Client 4: Andrzej Kuc
+Balance: 559
+Client 5: Piotr Wisniowski
+Balance: 1843.41
+Client 106: Joachim Dabrowski
+Balance: 831
+Client 107: Natan Stepien
+Balance: 658
+Client 108: Marzanna Zielinska
+Balance: 1599
+Client 109: Magdalena Borkowska
+Balance: 472
+Client 110: Lila Szymczak
+Balance: 123.98
+
