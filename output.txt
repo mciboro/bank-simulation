@@ -363,3 +363,137 @@ Balance: 472
 Client 110: Lila Szymczak
 Balance: 123.98
 
+Client 1: Michał Wyszyński
+Balance: 518
+Client 2: Agata Nowak
+Balance: 987
+Client 3: Jan Kowalski
+Balance: 147
+Client 4: Andrzej Kuc
+Balance: 553
+Client 5: Piotr Wisniowski
+Balance: 1564.41
+Client 106: Joachim Dabrowski
+Balance: 748
+Client 107: Natan Stepien
+Balance: 658
+Client 108: Marzanna Zielinska
+Balance: 1312
+Client 109: Magdalena Borkowska
+Balance: 813
+Client 110: Lila Szymczak
+Balance: 123.98
+
+Employee 1: Mirosława Wojciechowska
+Seniority level: Senior
+Employee 2: Wanda Rutkowska
+Seniority level: Junior
+Employee 3: Robert Duda
+Seniority level: Junior
+Employee 4: Boleslaw Wasilewski
+Seniority level: Senior
+Employee 5: Martin Andrzejewski
+Seniority level: Junior
+Employee 6: Jakub Sikora
+Seniority level: Senior
+
+Deposit no. 201 was made
+Client no. 4: Andrzej Kuc
+Amount: 215
+Client's balance: 768
+Banker no. 6: Jakub Sikora
+Desk no. 3
+
+Deposit no. 202 was made
+Client no. 108: Marzanna Zielinska
+Amount: 359
+Client's balance: 1671
+Banker no. 3: Robert Duda
+Desk no. 1
+
+Deposit no. 203 was made
+Client no. 3: Jan Kowalski
+Amount: 0
+Client's balance: 147
+Banker no. 6: Jakub Sikora
+Desk no. 1
+
+Handout no. 104 was made
+Client no. 109: Magdalena Borkowska
+Amount: 347
+Client's balance: 466
+Banker no. 4: Boleslaw Wasilewski
+Desk no. 3
+
+Deposit no. 205 was made
+Client no. 109: Magdalena Borkowska
+Amount: 83
+Client's balance: 549
+Banker no. 6: Jakub Sikora
+Desk no. 2
+
+Deposit no. 206 was made
+Client no. 108: Marzanna Zielinska
+Amount: 4
+Client's balance: 1675
+Banker no. 3: Robert Duda
+Desk no. 2
+
+Deposit no. 207 was made
+Client no. 108: Marzanna Zielinska
+Amount: 225
+Client's balance: 1900
+Banker no. 6: Jakub Sikora
+Desk no. 3
+
+Transfer no. 8 was made
+Sender no. 106: Joachim Dabrowski
+Recipient no. 4: Andrzej Kuc
+Banker no. 4: Boleslaw Wasilewski
+Amount: 377
+Desk no. 1
+
+Deposit no. 209 was made
+Client no. 110: Lila Szymczak
+Amount: 356
+Client's balance: 479.98
+Banker no. 5: Martin Andrzejewski
+Desk no. 2
+
+Operation was made at wrong machine
+
+Deposit no. 211 was made
+Client no. 3: Jan Kowalski
+Amount: 295
+Client's balance: 442
+Banker no. 1: Mirosława Wojciechowska
+Desk no. 1
+
+Deposit no. 212 was made
+Client no. 2: Agata Nowak
+Amount: 364
+Client's balance: 1351
+Banker no. 2: Wanda Rutkowska
+Desk no. 3
+
+Client 1: Michał Wyszyński
+Balance: 518
+Client 2: Agata Nowak
+Balance: 1351
+Client 3: Jan Kowalski
+Balance: 442
+Client 4: Andrzej Kuc
+Balance: 1145
+Client 5: Piotr Wisniowski
+Balance: 1564.41
+Client 106: Joachim Dabrowski
+Balance: 371
+Client 107: Natan Stepien
+Balance: 658
+Client 108: Marzanna Zielinska
+Balance: 1900
+Client 109: Magdalena Borkowska
+Balance: 549
+Client 110: Lila Szymczak
+Balance: 479.98
+
