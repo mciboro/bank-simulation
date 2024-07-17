@@ -10,8 +10,10 @@
 class Deposit : public Service
 {
     public:
+        Deposit(Client& client, Employee& banker, Desk& desk, double amount, unsigned id);
+        Deposit() = delete;
+        static unsigned return_new_id();
         void do_cash_deposit(char* file_name);
-        void set_id() override;
 
     friend std::ostream& operator<<(std::ostream& os, Deposit deposit);
 };

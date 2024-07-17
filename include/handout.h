@@ -11,8 +11,10 @@
 class Handout : public Service
 {
     public:
+        Handout(Client& client, Employee& banker, Desk& desk, double amount, unsigned id);
+        Handout() = delete;
+        static unsigned return_new_id();
         void do_cash_handout(char* file_name);
-        void set_id() override;
 
     friend std::ostream& operator<<(std::ostream& os, Handout handout);
 };

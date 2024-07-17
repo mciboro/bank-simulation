@@ -17,9 +17,6 @@ class Simulation : public SimulationInterface
 {
     private:
         Data data;
-        Transfer transfer;
-        Handout handout;
-        Deposit deposit;
         int argc;
         char** argv;
         unsigned TRANSFER_LIMIT = 600;

@@ -17,8 +17,6 @@ class Data : public DataInterface
         ClientList list_of_clients;
         EmployeeList list_of_employees;
         DeskList list_of_desks;
-        Atm atm;
-        Cdm cdm;
     public:
         void read_clients_from_file(char* i_client_file, char* b_client_file) override;
         void read_employees_from_file(char* file_name) override;

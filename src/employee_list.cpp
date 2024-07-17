@@ -1,21 +1,21 @@
 #include "employee_list.h"
 
-void EmployeeList::add_employee(Employee* employee)
+void EmployeeList::add_employee(std::unique_ptr<Employee>&& employee)
 {
     employee->set_id();
-    this->employee_list.push_back(employee);
+    this->employee_list.push_back(std::move(employee));
 }
 
-Employee* EmployeeList::return_employee(unsigned index) const
+Employee& EmployeeList::return_employee(unsigned index)
 {
-    return this->employee_list[index];
+    return *this->employee_list.at(index);
 }
 
 void EmployeeList::print_all_employees(char* file_name) const
 {
     std::ofstream output_file;
     output_file.open(file_name, std::ios::app);
-    for(auto employee : employee_list)
+    for(auto const& employee : employee_list)
     {
         std::cout << *employee;
         output_file << *employee;
@@ -28,13 +28,4 @@ void EmployeeList::print_all_employees(char* file_name) const
 unsigned EmployeeList::return_size() const
 {
     return this->employee_list.size();
-}
-
-EmployeeList::~EmployeeList()
-{
-    for(std::vector<Employee*>::iterator i = employee_list.begin(); i != employee_list.end(); i++)
-    {
-        delete *i;
-        *i = nullptr;
-    }
 }

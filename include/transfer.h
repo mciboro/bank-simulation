@@ -14,11 +14,14 @@
 class Transfer : public Service
 {
     private:
-        Client* recipient;
+        Client& recipient;
     public:
+        Transfer(Client& client, Client& recipient, Employee& banker, Desk& desk, double amount, unsigned id);
+        Transfer() = delete;
+        static unsigned return_new_id();
         void do_transfer(char* file_name);
-        Client* get_recipient() const;
-        void set_recipient(Client* recipient);
+        Client& get_recipient() const;
+        void set_recipient(Client& recipient);
     
     friend std::ostream& operator<<(std::ostream& os, Transfer transfer);
 };

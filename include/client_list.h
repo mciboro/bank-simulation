@@ -10,13 +10,12 @@
 class ClientList
 {
     private:
-        std::vector<Client*> client_list;
+        std::vector<std::unique_ptr<Client>> client_list;
     public:
-        void add_client(Client* client);
-        Client* return_client(unsigned index) const;
+        void add_client(std::unique_ptr<Client>&& client);
+        Client& return_client(unsigned index);
         void print_all_clients(char* file_name) const;
         unsigned return_size() const;
-        ~ClientList();
 
 };
 

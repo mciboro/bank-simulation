@@ -48,12 +48,13 @@ void Simulation::generate_transfer()
     {
         unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
         std::mt19937 generator(seed);
-        this->transfer.set_client(data.list_of_clients.return_client(generator() % data.list_of_clients.return_size()));
-        this->transfer.set_recipient(data.list_of_clients.return_client((generator() + seed) % data.list_of_clients.return_size()));
-        this->transfer.set_banker(data.list_of_employees.return_employee(generator() % data.list_of_employees.return_size()));
-        this->transfer.set_desk(data.list_of_desks.return_desk(generator() % data.list_of_desks.return_size()));
-        this->transfer.set_amount(generator() % TRANSFER_LIMIT);
-        this->transfer.do_transfer(argv[6]);
+        Transfer transfer(data.list_of_clients.return_client(generator() % data.list_of_clients.return_size()),
+                          data.list_of_clients.return_client((generator() + seed) % data.list_of_clients.return_size()),
+                          data.list_of_employees.return_employee(generator() % data.list_of_employees.return_size()),
+                          data.list_of_desks.return_desk(generator() % data.list_of_desks.return_size()),
+                          generator() % TRANSFER_LIMIT,
+                          Transfer::return_new_id());
+        transfer.do_transfer(argv[6]);
     }
     catch(DebtException& e)
     {
@@ -93,11 +94,12 @@ void Simulation::generate_deposit()
     {
         unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
         std::mt19937 generator(seed);
-        this->deposit.set_client(data.list_of_clients.return_client(generator() % data.list_of_clients.return_size()));
-        this->deposit.set_banker(data.list_of_employees.return_employee(generator() % data.list_of_employees.return_size()));
-        this->deposit.set_desk(data.list_of_desks.return_desk(generator() % data.list_of_desks.return_size()));
-        this->deposit.set_amount(generator() % TRANSFER_LIMIT);
-        this->deposit.do_cash_deposit(argv[6]);
+        Deposit deposit(data.list_of_clients.return_client(generator() % data.list_of_clients.return_size()),
+                        data.list_of_employees.return_employee(generator() % data.list_of_employees.return_size()),
+                        data.list_of_desks.return_desk(generator() % data.list_of_desks.return_size()),
+                        static_cast<double>(generator() % TRANSFER_LIMIT),
+                        Deposit::return_new_id());
+        deposit.do_cash_deposit(argv[6]);
     }
     catch(WrongMachineException& e)
     {
@@ -117,11 +119,12 @@ void Simulation::generate_handout()
     {
         unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
         std::mt19937 generator(seed);
-        this->handout.set_client(data.list_of_clients.return_client(generator() % data.list_of_clients.return_size()));
-        this->handout.set_banker(data.list_of_employees.return_employee(generator() % data.list_of_employees.return_size()));
-        this->handout.set_desk(data.list_of_desks.return_desk(generator() % data.list_of_desks.return_size()));
-        this->handout.set_amount(generator() % TRANSFER_LIMIT);
-        this->handout.do_cash_handout(argv[6]);
+        Handout handout(data.list_of_clients.return_client(generator() % data.list_of_clients.return_size()),
+                        data.list_of_employees.return_employee(generator() % data.list_of_employees.return_size()),
+                        data.list_of_desks.return_desk(generator() % data.list_of_desks.return_size()),
+                        generator() % TRANSFER_LIMIT,
+                        Handout::return_new_id());
+        handout.do_cash_handout(argv[6]);
     }
     catch(DebtException& e)
     {

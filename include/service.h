@@ -7,25 +7,18 @@ class Service : public ServiceInterface
     protected:
         static unsigned numerator;
         unsigned id;
-        unsigned time;
-        Client* client;
-        Employee* banker;
-        Desk* desk;
+        Client& client;
+        Employee& banker;
+        Desk& desk;
         double amount;
     public:
+        Service() = delete;
+        Service(Client& client, Employee& banker, Desk& desk, double amount, unsigned id);
         unsigned get_id() const override;
-        unsigned return_new_id() const override;
-        void set_id() override;
-        unsigned get_time() const override;
-        void set_time(unsigned time) override;
-        Client* get_client() const override;
-        void set_client(Client* client) override;
+        Client& get_client() const override;
         double get_amount() const override;
-        void set_amount(double amount) override;
-        Employee* get_banker() const override;
-        void set_banker(Employee* banker) override;
-        Desk* get_desk() const override;
-        void set_desk(Desk* desk) override;
+        Employee& get_banker() const override;
+        Desk& get_desk() const override;
 };
 
 #endif

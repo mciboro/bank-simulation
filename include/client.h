@@ -1,6 +1,7 @@
 #ifndef CLIENT_H
 #define CLIENT_H
 #include <string>
+#include <memory>
 #include "client_interface.h"
 
 class Client : public ClientInterface
